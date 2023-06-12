@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    background: linear-gradient(to bottom, #009688 15%, #D9DBD4 10%);
+    background-repeat: no-repeat;
+}
+
+.background{
+    height: 1000px;
+}
+
+
+.my_avatar{
+    border-radius: 50%;
+    color: white;
+}
+
+.avatar{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.ml{
+    margin-left: 10px;
+}
+
+.margin_icon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.notifications{
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+}
+
+.bell{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightskyblue;
+    background-color: white;
+    border-radius: 50% ;
+}
+
+.underline{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.search{
+    background-color: whitesmoke;
+   
+}
+
+.input{
+    width: 200px;
+    border: 1px solid whitesmoke;
+}
+
+.circle_avatar{
+    border-radius: 50%;
+    color: white;
+}
+
+.color_col{
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.items{
+    margin-top: 10px;
+    
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+.margin{
+margin-top: 15px;
+}
+
+.red{
+    background-color: red;
+    height: 200px;
+}
+
+.top_chat{
+    background-color: rgb(226, 226, 226);
+}
+
+.immagine{
+    display: flex;
+}
+
+.info_chat{
+    width: 40%;
+}
+
+.chat{
+    background-color: yellow;
+}
+
+.background_chat{
+    background-image: url(./img/mine.jpg);
+    height: 100%;
+    position: relative;
+}
+
+.chat{
+    height:630px;
+}
+
+.footer_chat{
+    height: 74px;
+    background-color: rgb(226, 226, 226);
+
+}
+
+.message_green{
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container_chat{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.first{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.second{
+    position: absolute;
+    right: 0;
+    top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 220px;
+}
+
+.message_white{
+    position:absolute;
+    left: 0;
+    top: 160px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 35%;
+}
